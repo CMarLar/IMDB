@@ -1,4 +1,6 @@
-class IMDB
+import { Movie } from "./movie"
+
+export class IMDB
 {
     public peliculas : Movie[];
     constructor(peliculas: Movie[]){

@@ -1,8 +1,9 @@
-class Movie 
+import { Professional } from "./professional"
+export class Movie 
 {
     public title: string;
     public releaseYear: number;
-    public actors: Professional[];//clase Professional, la crea Fanel
+    public actors: Professional[];
     public nationality: string;
     public director: Professional;
     public writer: Professional;
