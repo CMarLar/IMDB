@@ -7,3 +7,5 @@ let movie2 = new Movie("Rush", 2013,"American","Acción")
 let myImdb = new IMDB([movie1,movie2])
 
 console.log(myImdb.peliculas);
+
+myImdb.escribirEnFicheroJSON("nuevaIMDB.json")

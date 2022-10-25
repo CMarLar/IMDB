@@ -20,6 +20,17 @@ export class Movie
         this.releaseYear = releaseYear;
         this.nationality = nationality;
         this.genre = genre;
+        this.actors = [];
+        this.nationality;
+        this.director;
+        this.writer;
+        this.language;
+        this.plataforma;
+        this.isMCU;
+        this.mainCharacterName;
+        this.producer;
+        this.distributor;
+        this.genre;
     }
 
 

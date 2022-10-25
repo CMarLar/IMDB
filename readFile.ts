@@ -1,4 +1,3 @@
-//NOT WORKING YET
 
 const fs = require("fs");
 const path = "./imdbBBDD.json"
